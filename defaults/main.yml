@@ -51,6 +51,9 @@ certbot_create_standalone_stop_services:
 # Available options: 'package', 'snap', 'source'.
 certbot_install_method: 'package'
 
+# Extra certbot packages to install, e.g. python3-certbot-apache
+certbot_extra_packages: []
+
 # Source install configuration.
 certbot_repo: https://github.com/certbot/certbot.git
 certbot_version: master
